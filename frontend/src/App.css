@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 100%;
+  min-height: 80px;
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.examples button {
+  margin-right: 5px;
+}
+
+.pages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.page {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .page {
+    width: calc(50% - 10px);
+  }
+}
+
+.page img {
+  width: 100%;
+  height: auto;
+}
